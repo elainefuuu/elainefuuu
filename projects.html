@@ -1,0 +1,188 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ELAINE FU</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <!--<link rel="stylesheet" href="styles/debug.css">-->
+    <link rel="icon" href="images/icon.jpg">
+    <script defer src = "js/nav-burger.js"></script>
+
+    <style>
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.equal-height {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.equal-height .card-content {
+  flex: auto;
+}
+    </style>
+</head>
+
+<body>
+  <nav class="navbar has-shadow" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <p class = "has-text-weight-medium my-auto ml-5">ELAINE FU</p>
+  
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+  
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-end">
+        <a href = "index.html" class="navbar-item">
+          Home
+        </a>
+        <a href = "about.html" class="navbar-item">
+          About
+        </a>
+        <a href = "projects.html" class="navbar-item has-text-weight-semibold">
+          Projects
+        </a>
+        <a href = "experiences.html" class="navbar-item">
+          Experiences
+        </a>
+        <a href = "activities.html" class="navbar-item">
+          Activities
+        </a>
+        <a href = "contact.html" class="navbar-item">
+          Contact
+        </a>
+
+        <div class="navbar-item">
+          <div class="buttons">
+            <a href = "documents/Elaine Fu_Resume.pdf" target = "_blank" class = "button" style = "background-color:#FCB25B; border: 0;box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">
+              Download Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+<section class="section is-paddingless-horizontal pb-0">
+    <div class="container grid">
+        <nav class="breadcrumb" aria-label="breadcrumbs">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="is-active"><a href="#" aria-current="page">Some projects to hone my skills</a></li>
+                <li><a href="experiences.html">Experiences</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</section>
+
+<section class = "hero is-fullheight-with-navbar">
+  <div class="hero-body">
+    <div class="container is-max-widescreen">
+      <div class = "block has-text-centered">
+        <h1 class = "title is-3 pb-3">👩‍💻 Check out my creations</h1>
+      </div>
+
+      <div class="columns is-multiline is-3">
+        <div class="column is-one-third">
+          <div class="card equal-height">
+            <div class="card-image">
+              <figure class="image is-16by9">
+                <img src="images/IssueTrackerSystem.JPG" alt="Issue Tracker System">
+              </figure>
+            </div>
+
+            <div class="card-content">
+              <div class="content has-text-grey">
+                <strong style = "color: black">Issue Tracker System</strong><br>
+                Project involved dataset from json file contained the software bugs reported. 
+                The issues are tracked, recorded by priority, tags, and timelines for more organised tracking system. 
+              </div>
+            </div>
+            <footer class="card-footer" style = "border: none;">
+                <p class ="px-5 pb-3" style = "font-weight: 100; color:grey"><i class="fa fa-tag"></i> Java, GUI, Data Structures</p>
+            </footer>
+            <footer class="card-footer">
+              <a href="https://github.com/elainefuuu/Issue-Tracker-System" target = "_blank" class="card-footer-item">Details</a>
+            </footer>
+          </div>
+        </div>
+
+        <div class="column is-one-third">
+          <div class="card equal-height">
+            <div class="card-image">
+              <figure class="image is-16by9">
+                <img src="images/ApplicationPrototype.JPG" alt="Application Prototype">
+              </figure>
+            </div>
+
+            <div class="card-content">
+              <div class="content has-text-grey">
+                <strong style = "color: black">Future Mechanics Application Prototype</strong><br>
+                Project involved developing a mobile application prototype on Figma.
+                Project is done in a team of 4 and is involed in a Information System course of Universiti Malaya for the Future Mechanics application.
+              </div>
+            </div>
+            <footer class="card-footer" style = "border: none;">
+              <p class ="px-5 pb-3" style = "font-weight: 100; color:grey"><i class="fa fa-tag"></i> UI/UX Design, Mobile Application Prototype, Figma</p>
+            </footer>
+
+            <footer class="card-footer">
+              <a href="https://www.figma.com/proto/JeNKVkbzTjNp8M76aH6e8v/Future-Mechanic?node-id=1%3A4&starting-point-node-id=1%3A4" target = "_blank" class="card-footer-item">Details</a>
+            </footer>
+          </div>
+        </div>
+
+        <div class="column is-one-third">
+          <div class="card equal-height">
+            <div class="card-image">
+              <figure class="image is-16by9">
+                <img src="images/PersonalWebsite.JPG" alt="Personal Website">
+              </figure>
+            </div>
+
+            <div class="card-content">
+              <div class="content has-text-grey">
+                <strong style = "color: black">Personal Website</strong><br>
+                Project involved developing a website for personal portfolio as part of self-learning on Bulma CSS.
+              </div>
+            </div>
+            <footer class="card-footer" style = "border: none;">
+              <p class ="px-5 pb-3" style = "font-weight: 100; color:grey"><i class="fa fa-tag"></i> Website Design, HTML, CSS, Bulma</p>
+            </footer>
+            <footer class="card-footer">
+              <a href="https://elainefuuu.github.io/elainefuuu/" target = "_blank" class="card-footer-item">Details</a>
+            </footer>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        ©2021, Elaine Fu</br>
+        <a href = "#"><strong>Back to Top</strong></a></br>
+        <a href = "about.html"><strong>← Go Back to About</strong> | </a>
+        <a href = "experiences.html"><strong>Go to Experiences →</strong></a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
