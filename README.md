@@ -1,5 +1,5 @@
-- 👋 Hello, there! I'm Elaine — an Artificial Intelligence undergraduate in Universiti Malaya, Malaysia.
-- 👀 Interested in Machine Learning and Data Analyst!
-- 🌱 Currently studying Computer Science in Artificial Intelligence.
+- 👋 Hello, there! I'm Elaine — a Computer Science in Artificial Intelligence undergraduate at Universiti Malaya.
+- 👀 Interested in Software Development and Artificial Intelligence!
+- 🌱 Proficient in Java, Python, SQL; Experience with Machine Learning.
 - 📫 How to reach me: elainefu9@gmail.com or connect with me on <a href = "https://www.linkedin.com/in/elaine-fu/">LinkedIn</a>
 - 🔗 https://elainefuuu.github.io/elainefuuu/
